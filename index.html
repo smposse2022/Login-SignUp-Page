@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+    <!--Stylesheet CSS-->
+    <link rel="stylesheet" href="/css/styles.css" />
+    <!--Font Google/Montserrat-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="cont">
+      <div class="form sign-in">
+        <h2>Hello again,</h2>
+        <label for="email">
+          <input
+            type="email"
+            name="email_signIn"
+            id="email_signIn"
+            placeholder="Type your Email"
+          />
+        </label>
+        <label for="password_SignIn">
+          <input
+            type="password"
+            name="password_SignIn"
+            id="password_SignIn"
+            placeholder="Type your Password"
+          />
+        </label>
+        <button type="button" class="submit">Sign In</button>
+        <button type="button" class="google-btn">
+          Connect with <span>Google</span>
+        </button>
+      </div>
+      <div class="sub-cont">
+        <div class="img">
+          <div class="img__text img_signUp">
+            <h2>New here?</h2>
+            <p>Sign up now. It´s free!!</p>
+          </div>
+          <div class="img__text img_signIn">
+            <h2>Have an account?</h2>
+            <p>If you already have an account, Sign in!!</p>
+          </div>
+          <div class="img__btn">
+            <span class="img_signUp">Sign Up</span>
+            <span class="img_signIn">Sign In</span>
+          </div>
+        </div>
+        <div class="form sign-up">
+          <h2>Welcome back,</h2>
+          <label for="name">
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Type your Name"
+            />
+          </label>
+          <label for="email_signUp">
+            <input
+              type="email"
+              name="email_signUp"
+              id="email_signUp"
+              placeholder="Type your Email"
+            />
+          </label>
+          <label for="password_SignUp">
+            <input
+              type="password"
+              name="password_SignUp"
+              id="password_SignUp"
+              placeholder="Create a Password"
+            />
+          </label>
+          <button type="button" class="submit">Sign Up</button>
+          <button type="button" class="google-btn">
+            Join with <span>Google</span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <!--JavaScript CSS-->
+    <script src="/main.js"></script>
+  </body>
+</html>
